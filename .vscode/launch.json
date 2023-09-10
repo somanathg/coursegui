@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "app.header.Test",
+      "projectName": "coursegui_256fc67e"
+    },
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
