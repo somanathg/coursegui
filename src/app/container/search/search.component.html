@@ -1,5 +1,5 @@
 <div class="ekart-searh-product">
-    <input class="ekart-search-product-input" [(ngModel)]="searchText">
+    <input class="ekart-search-product-input" [(ngModel)]="searchText"(input)="onSearchtextCanged()">
     <!-- <button [ngClass]="{'btn'=true,'btn-search':searchText,'ekart-btn-disabled':!searchText}" [disabled]="searchText ==''">Search</button> -->
 <button [ngClass]="{'btn':true,'btn-search':searchText,'ekart-btn-disabled':!searchText}" [disabled]="searchText ==''">Search</button>
 </div>
