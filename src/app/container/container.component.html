@@ -13,10 +13,11 @@
     <!-- <input [value]="name" (input)="onNameChange($event)"><br>
     <p>Name: {{name}}</p> -->
 
-    <app-search></app-search>
+    <app-search (searchtextCanged)="setSearchText($event)"></app-search>
     <!-- <div *ngFor="let item of listOfString">
 <p>Current element is : {{item}}</p>
     </div> -->
-    <app-product-list></app-product-list>
+   
+    <app-product-list [searchText]="searchText"></app-product-list>
 
 </div>

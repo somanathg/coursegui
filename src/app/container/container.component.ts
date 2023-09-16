@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent {
+//fetch data from child(search)component
+  searchText:string='';
+
+  setSearchText(value:string){
+    this.searchText=value;
+  }
 
 }
 
